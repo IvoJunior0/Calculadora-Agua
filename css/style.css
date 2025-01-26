@@ -13,3 +13,7 @@
 body {
     background-color: #BEE9E8;
 }
+
+p {
+    white-space: pre;
+  }
