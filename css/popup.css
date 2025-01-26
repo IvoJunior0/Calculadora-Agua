@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    font-family: "Nunito";
+    color: #E1E5F2;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #022B3A;
+}
+
+main {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.title {
+    color: #E1E5F2;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.form {
+    background-color: red;
+    width: 100%
+}
+
+.peso {
+    outline: none;
+    color: #E1E5F2;
+    background-color: #011921;
+    box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 9px 15px 9px 15px;
+    transition: .3s;
+    width: 100%;
+}
+
+.peso::placeholder {
+    color: #e1e5f2
+}
+
+.peso:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+}
+
+.peso:focus {
+    box-shadow: 0 0 0 .30vw #BFDBF7;
+}
+
+.btn {
+    background-color: #1F7A8C;
+    color: #FFFFFF;
+    padding: 11px 20px 11px 20px;
+    border-radius: 5px;
+    transition: all .175s;
+}
+
+.btn:hover {
+    background-color: #BFDBF7;
+    cursor: pointer;
+}
+
+.resultado-container {
+    text-align: center;
+    font-weight: 700;
+}
