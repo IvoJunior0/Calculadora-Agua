@@ -8,9 +8,19 @@
 </head>
 <body>
     <main>
-        <h1>Calculadora Consumo de Água</h1>
-        <p>O calculo é baseado em duas variáveis: a idade e o peso da pessoa. Jovens de até 17 anos são 40 ml por quilo. Pessoas de 18 a 55 anos são 35 ml por cada kg. Entre 55 a 65 anos são 30 ml por cada kg. De 66 anos em diante são 25 ml por cada kg.</p>
-        <button onclick="newPopup()" >Abrir Calculadora</button>
+        <h1 class="title">Calculadora Consumo de Água</h1>
+        <div class="text-container">
+            <p class="text">O calculo é baseado em <span class="bold">duas variáveis</span>: <span class="italic">a idade (em anos) e o peso (em kg) da pessoa</span>.</p>
+            <ul class="text">
+                <li>Jovens de até 17 anos são <span class="bold">40 ml por quilo</span>.</li>
+                <li>Pessoas de 18 a 55 anos são <span class="bold">35 ml por cada kg</span>.</li>
+                <li>Entre 55 a 65 anos são <span class="bold">30 ml por cada kg</span>.</li>
+                <li>De 66 anos em diante são <span class="bold">25 ml por cada kg</span>.</li>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <button onclick="newPopup()" class="btn">Abrir Calculadora</button>
+        </div>
     </main>
     <script src="./js/index.js"></script>
 </body>
